@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    CodeLights' Sparkle feed.
+
+    The app fetches this file straight from GitHub:
+    https://raw.githubusercontent.com/vincenzobelpiede/codelights/master/appcast.xml
+
+    Every <item> below is one release: a version, an EdDSA signature, and a
+    download URL pointing at that release's DMG. Nothing here is written by
+    hand — run `scripts/make-appcast.sh <dmg> <version>`, which signs the disk
+    image and merges the result in, newest first.
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>CodeLights</title>
+        <link>https://github.com/vincenzobelpiede/codelights</link>
+        <description>Updates for CodeLights, the macOS traffic light for Claude Code sessions.</description>
+        <language>en</language>
+        <item>
+            <title>4.4</title>
+            <link>https://github.com/vincenzobelpiede/codelights/releases/tag/v4.4</link>
+            <pubDate>Sun, 02 Aug 2026 17:52:24 +0200</pubDate>
+            <sparkle:version>29</sparkle:version>
+            <sparkle:shortVersionString>4.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/vincenzobelpiede/codelights/releases/download/v4.4/CodeLights-4.4.dmg" length="2368655" type="application/octet-stream" sparkle:edSignature="LQd5VoF51txAXnGNuHXk2WwboaZAFQQ9LeWYDP10+EB3ty+N5zY2ehNlTfEvYxIGIR+Xm1YZAB/xPg7MaU5IDQ==" />
+        </item>
+    </channel>
+</rss>
