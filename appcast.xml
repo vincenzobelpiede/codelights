@@ -19,6 +19,16 @@
         <description>Updates for CodeLights, the macOS traffic light for Claude Code sessions.</description>
         <language>en</language>
         <item>
+            <title>6.4</title>
+            <link>https://github.com/vincenzobelpiede/codelights/releases/tag/v6.4</link>
+            <pubDate>Fri, 09 Oct 2026 21:43:36 +0200</pubDate>
+            <sparkle:version>49</sparkle:version>
+            <sparkle:shortVersionString>6.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/vincenzobelpiede/codelights/releases/download/v6.4/CodeLights-6.4.dmg" length="3402559" type="application/octet-stream" sparkle:edSignature="eLVpctq5+oyi4KAuug2Fbqw37pAzZlQFuwEEFmRGT3K1zRwkM6f9JuptZA7LN3rF1KdP+aEL4iBLQ3Q9lK4QCQ==" />
+        </item>
+        <item>
             <title>4.6</title>
             <link>https://github.com/vincenzobelpiede/codelights/releases/tag/v4.6</link>
             <pubDate>Sat, 15 Aug 2026 19:04:45 +0200</pubDate>
